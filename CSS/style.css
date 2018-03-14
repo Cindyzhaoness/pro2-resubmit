@@ -1,0 +1,166 @@
+.flex-body_container {
+    background-color: pink;
+    font-family: fantasy;  
+}
+
+.flex-header_container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex-header_headings{
+    margin-top: 30px;
+}
+
+.flex-hero-image_container {
+    position: relative;
+    text-align: center;
+}
+
+.flex-about_container {
+    margin: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.flex-bottom_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.flex-footer_container {
+    text-align: center;
+    background-color: lightpink;
+    padding: 20px 0 20px 0;
+    margin: 40px 0 0 0;
+}
+
+.m-about-heading_h1,.m-bottom-heading_h1 {
+    text-align: center;
+}
+
+.m-bottom-container1 {
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    position: relative;  
+}
+
+.image {
+    width: 70%;
+}
+
+.pic-header-headings_h2 {
+    padding-left: 5px;
+
+}
+
+.pic-header_LB-logo {
+    width: 250px;
+    padding-top: 50px;
+}
+
+.pic-hero-image{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/***************************************Ipad*************************************************************/
+@media only screen and (max-width: 768px) {
+    .pic-hero-image_text {
+        font-size: 1.5em;
+    }
+    .flex-about_container {
+        margin: 40px;
+        text-align: center;
+        font-size: 2em;
+        font-style: italic;
+
+    }
+    .flex-bottom_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pic-bottom-image {
+        width: 100%;
+    }
+    .pic-header_LB-logo {
+        width: 200px;
+        padding-top: 50px;
+    }
+    .m-bottom-container1 {
+        width: 64%;
+        text-align: center;
+        margin: 10px 10px 15px 10px;
+        position: relative;
+        display: block;
+    }
+}
+/************************************************Nexus 5**************************************************************/
+@media only screen and (max-width: 360px) {
+    .flex-header_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-header_headings{
+        text-align: center;
+    }
+
+    .flex-hero-image_text {
+        font-size: 1em;
+    }
+
+    .flex-about_container {
+        margin: 40px 20px 40px 20px;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+
+    }
+    .flex-bottom_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .pic-bottom-image {
+        width: 100%;
+    }
+    .pic-header_LB-logo {
+        width: 180px;
+        padding-top: 50px;
+    }
+    .pic-bottom-container1 {
+        width: 64%;
+        text-align: center;
+        margin: 10px 10px 15px 10px;
+        position: relative;
+        display: block;
+    }
+}
+
+/*************************************************550************************************************************/
+@media only screen and (max-width: 550px) {
+    .flex-header_container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 40px 0 40px;
+    }
+
+    .flex-header_headings{
+        text-align: center;
+    }
+}
